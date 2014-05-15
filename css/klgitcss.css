@@ -1,0 +1,59 @@
+/* I'll want text-indent, resizing, maxwidth, background color, colors to consider - yellow, grays, white, black, links open in new tab, add normalize*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 900px;
+  background-color: gray;
+  color: yellow;
+  margin: 0 20%;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+article {
+  background-color: yellow;
+  color: black;
+  border-radius: 7px;
+  margin: 0 15%;
+  padding: 0 .5em;
+}
+
+.pageHead {
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+a, a:visited{
+
+  color: inherit;
+}
+
+a:hover {
+color: gray;
+text-decoration: none;
+
+}
+
+.post {
+  font-size: 1em;
+}
+
+nav {
+  margin: 0 25%;
+}
+
+@media only screen and (max-width: 800px) {
+
+  article {
+    width: 100%
+  }
+
+
+
+
+}
